@@ -8,3 +8,12 @@ data={
 df=pd.DataFrame(data)
 print(df)
 print("----------------------")
+
+data={
+    "Product":["laptop","phone","tablet"],
+    "price":[60000,30000,20000],
+    "Qty":[2,5,3]
+}
+
+new=pd.DataFrame(data)
+print(new)
