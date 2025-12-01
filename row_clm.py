@@ -5,8 +5,9 @@ data={
     "age":[23,22,25,21],
     "city":["paris","New york city","London","tokyo"]
 }
-df=pd.DataFrame(data)
 
+
+df=pd.DataFrame(data)
 
 df.loc[2,"age"]=27
 df.loc[3,"city"]="delhi"
